@@ -14,3 +14,21 @@ This talk will explore what virtual threads are, how they are implemented, how t
 
 
 #### _Demo required Java 19 installed on the machine!_
+
+
+Since this is a preview feature, a developer will need to provide the --enable-preview flag to compile this code, as shown in the following command: 
+
+```javac --release 19 --enable-preview Main.java```
+
+The same flag is also required to run the program: 
+
+```java --enable-preview Main```
+
+However, one can directly run this using the source code launcher. In that case, the command line would be:
+
+```java --source 19 --enable-preview Main.java```
+
+The jshell option is also available but requires enabling the preview feature as well: 
+
+```jshell --enable-preview```
+
